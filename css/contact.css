@@ -5,23 +5,11 @@
 body{
     font-family: 'Outfit', sans-serif;
     font-family: 'Poppins', sans-serif; 
-    height: 1000px;
-    background-color:lightgreen;
+     background-color:lightgreen;
 
 
 }
-.main-container{
-height: 700px;
-width:100%;
-margin-top:-15px;
-background-image: url(../img/bgp.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-color: powderblue;
-}
-.second-container{
-height:325px;
-}
+
 
 header ul{
 background-color:black;
@@ -77,19 +65,48 @@ transition: ease 0.7s;
 
 h1{
     text-align: center;
-    font-size:50px;
-    color:white;
+    font-size:40px;
+    color:grey;
     font-weight: 700px;
     font-style:bold;
 
 }
-
-video{
-    height:300px;
-    width:30%;
-    margin:15px;
-    border-radius: 10px;    
+.box-shadow {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
+
+.contact-form {
+    margin-top:5px !important;
+    width:600px;
+    background-color:white;
+    padding:10px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid #CCC;
+}
+label {
+    color: #5b4a4a;
+}
+label, input, textarea {
+    display:block;
+    width: calc(100% - 20px);
+    font-family: Verdana;
+}
+input, textarea {
+    margin: 5px 0px 15px;
+    padding:10px;
+    border-radius: 5px;;
+}
+.submit-button {
+    width: 100px;
+    background-color:blue;
+    color:white;
+    border-radius: 10px;
+    
+}
+
 
 footer{
     
@@ -97,7 +114,7 @@ footer{
     background-color:black;
     color:white;
     position: relative;
-    height:200px;
+    height:175px;
 }
 
 .ftr-container1{
@@ -122,13 +139,10 @@ float: left;
     padding-top:20px;
     display: block;
     text-align: center;
-    
-
-}
+    }
 .ftr-link a{
     color:white;
     text-decoration: none;
-
 }
 .fab-quote{
     float:right;
@@ -136,16 +150,14 @@ float: left;
     position:absolute;
    right:30px;
    top:20px;
-    
 }
 textarea{
-   
-    color:black;
-            padding:30px 5px 0px 5px;
-            font-weight:300px;
-            border-radius:10px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-              
+color:black;
+padding:30px 5px 0px 5px;
+font-weight:300px;
+border-radius:10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
    
 }
 .copy-right{
@@ -154,18 +166,12 @@ textarea{
     margin-top:20px;
 }
 button{
-   
     color:white;
     border-radius:4px;
     background-color:rgb(19, 23, 233);
     padding-left:4px;
     padding-right: 4px;
 }
-
-
-
-    
-
 .carousel-control-prev-icon{
     background-color: black;
     color:red;
